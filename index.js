@@ -15,7 +15,7 @@ colors.setTheme({
   warn: 'yellow'
 }); //for coloured console log
 
-client.login("ODQ2Njc2MDAxOTQ4Njk2NTg3.YKy-eQ.BBezXp8pbg55eFfbn9bHOXV3h70");
+client.login(process.env.Token);
 //process.env for fetching your token in .env file
 
 client.on("ready", () => { 
