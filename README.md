@@ -29,7 +29,7 @@ Replace `your-token-here` with your bot's token!
 ![Screenshot2](https://cdn.discordapp.com/attachments/846698526821449778/846698792245657610/Screenshot_2021-05-25-16-08-32-42_c30cd925e7b7f067eb8ca2fbf963a62c.jpg)
 
 
-#Bot hosting guide
+# Bot hosting guide
 **24/7 bot hosting free:**
 </br>
 </br>
