@@ -2,8 +2,10 @@
 
 Hi guys I have bringed you a really simple but awesome and cool ChatBot for your discord server!
 
-**Usage:**
-• Create a repl of this repository by clicking [here](https://repl.it/github/EAGLE1309/chatBot)
+**Usage:** </br>
+**1.** Create a repl of this repository by clicking [here](https://repl.it/github/EAGLE1309/chatBot)
+</br>
+**2.** After this
 ```
 Go to config.json
 ```
