@@ -21,8 +21,8 @@ client.login(process.env.Token);
 client.user.setPresence({
     status: "online",
     activity: {
-        name: activityName,  // The message shown
-        type: activityType, // PLAYING, WATCHING, LISTENING, STREAMING,
+        name: activityName,
+        type: activityType,
     }
 
 client.on("ready", () => { 
