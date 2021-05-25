@@ -1,4 +1,4 @@
-#### chatBot by Eagle
+# chatBot by Eagle
 
 Hi guys I have bringed you a really simple but awesome and cool ChatBot for your discord server!
 
@@ -22,7 +22,7 @@ Replace `your-token-here` with your bot's token!
 </br>
 **4.** Just run your repl and done! `Enjoy!`
 
-## Screenshots
+### Screenshots
 **Discord:**
 ![Screenshot1](https://cdn.discordapp.com/attachments/846698526821449778/846698559969296424/Screenshot_2021-05-25-16-07-05-76_572064f74bd5f9fa804b05334aa4f912.jpg)
 **Terminal:**
