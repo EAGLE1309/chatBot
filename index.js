@@ -18,6 +18,13 @@ colors.setTheme({
 client.login(process.env.Token);
 //process.env for fetching your token in .env file
 
+client.user.setPresence({
+    status: "online",
+    activity: {
+        name: activityName,  // The message shown
+        type: activityType, // PLAYING, WATCHING, LISTENING, STREAMING,
+    }
+
 client.on("ready", () => { 
   console.log(`
 ████████████████████████████████████████
@@ -29,6 +36,14 @@ client.on("ready", () => {
 `);
 console.log("• Bot is online".success);
 console.log("• Thanks for using this bot!".regards);
+
+client.user.setPresence({
+    status: "online",
+    activity: {
+        name: activityName, 
+        type: activityType, 
+    }
+  })
 });
 
 
