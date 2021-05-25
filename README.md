@@ -45,10 +45,15 @@ app.listen(port, () => console.log(`Discord bot listening at http://localhost:${
 ```
 </br>
 </br>
+
 **2.** Go to [uptimeRobot] and create a new account!
+
 </br>
 </br>
+
 **3.** Create a new monitor with type https and paste the link there as shown in images
+
 </br>
 </br>
+
 **4.** And done your bot is successfully hosted for 24/7!
