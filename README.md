@@ -20,6 +20,7 @@ You can also set custom status of bot! Following is the guide
 ```
 </br>
 </br>
+
 **3.** Create a new file named `.env` and copy paste the following code in it
 ```
 Token=your-token-here
@@ -27,6 +28,7 @@ Token=your-token-here
 Replace `your-token-here` with your bot's token!
 </br>
 </br>
+
 **4.** Just run your repl and done! `Enjoy!`
 
 ### Screenshots
