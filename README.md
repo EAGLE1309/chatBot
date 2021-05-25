@@ -16,7 +16,7 @@ You can also set custom status of bot! Following is the guide
 ```javascript
 // in config.json
 "activityType": "PLAYING", // LISTENING, WATCHING, STREAMING
-"activityName": "" //The message shown
+"activityName": "with Discord" //The message shown
 ```
 </br>
 </br>
