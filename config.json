@@ -1,3 +1,5 @@
 {
-"botChannel": "<channel-name>"
+"botChannel": "<channel-name>",
+"activityType": "PLAYING", // PLAYING, LISTENING, WATCHING, STREAMING
+"activityName": "as a chatBot" //The message shown
 }
