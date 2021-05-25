@@ -21,7 +21,8 @@ app.listen(port, () => console.log(`Discord bot listening at http://localhost:${
 </br>
 
 **3.** Create a new monitor with type https and paste the link there as shown in images
-
+![Copying Link](https://cdn.discordapp.com/attachments/846698526821449778/846787482645037066/IMG_20210525_220059.jpg)
+![uptimeRobot](https://cdn.discordapp.com/attachments/846698526821449778/846787482989101086/IMG_20210525_220020.jpg)
 </br>
 </br>
 
