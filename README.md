@@ -12,6 +12,13 @@ Go to config.json
 ```
 Replace `<channel-name>` with the name of channel where the bot will talk!
 </br>
+You can also set custom status of bot! Following is the guide
+```javascript
+// in config.json
+"activityType": "PLAYING", // LISTENING, WATCHING, STREAMING
+"activityName": "" //The message shown
+```
+</br>
 </br>
 **3.** Create a new file named `.env` and copy paste the following code in it
 ```
