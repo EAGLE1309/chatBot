@@ -2,8 +2,8 @@ const Discord = require('discord.js');
 require('discord-reply');
 require('dotenv').config();
 
+const botChannel = require('./config.json');
 const fetch = require("node-fetch");
-
 const client = new Discord.Client();
 
 var colors = require('colors');
@@ -36,7 +36,7 @@ console.log("• Thanks for using this bot!".regards);
 //main working (don't do any changes here!)
 
 client.on("message", async message => {
-if (message.channel.name == "chatbot-test") {
+if (message.channel.name == botChannel) {
 if (message.author.bot) return;
 message.content = message.content.replace(/@(everyone)/gi, "everyone").replace(/@(here)/gi, "here");
 if (message.content.includes(`@`)) {
