@@ -1,0 +1,9 @@
+#ignoring following files
+
+.npm
+.node_repl_history
+
+#logs
+logs
+*.log
+npm-debug.log*
