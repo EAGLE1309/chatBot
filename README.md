@@ -4,5 +4,9 @@ Hi guys I have bringed you a really simple but awesome and cool ChatBot for your
 
 **Usage:**
 ```
-Go to 
+Go to config.json
 ```
+```
+Replace <channel-name> with the name of channel where the bot will talk!
+```
+
