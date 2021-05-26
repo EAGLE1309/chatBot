@@ -12,5 +12,3 @@ npm-debug.log*
 node_modules/
 jspm_packages/
 
-#unwanted markdown files
-HOST-BOT.md
