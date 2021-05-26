@@ -21,11 +21,12 @@ You can also set custom status of bot! Following is the guide
 </br>
 </br>
 
-**3.** Create a new file named `.env` and copy paste the following code in it
+**3.** Create a new secret environment variable as shown in following images
 ```
-Token=your-token-here
+Put the following values in it
+Key: Token
+Value: Your Bot's Token
 ```
-Replace `your-token-here` with your bot's token!
 </br>
 </br>
 
