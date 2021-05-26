@@ -22,8 +22,8 @@ You can also set custom status of bot! Following is the guide
 </br>
 
 **3.** Create a new secret environment variable as shown in following images
-```
-Put the following values in it
+```javascript
+// Put the following values in it
 Key: Token
 Value: Your Bot's Token
 ```
