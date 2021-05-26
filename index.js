@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 require('discord-reply');
 require('dotenv').config();
 
-const botChannel = require('./config.json');
+const { activityType, activityName, botChannel } = require('./config.json');
 const fetch = require("node-fetch");
 const client = new Discord.Client();
 
@@ -18,12 +18,6 @@ colors.setTheme({
 client.login(process.env.Token);
 //process.env for fetching your token in .env file
 
-client.user.setPresence({
-    status: "online",
-    activity: {
-        name: activityName,
-        type: activityType,
-    }
 
 client.on("ready", () => { 
   console.log(`
