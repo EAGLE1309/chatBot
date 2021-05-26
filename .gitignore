@@ -11,3 +11,6 @@ npm-debug.log*
 #Directories of dependencies
 node_modules/
 jspm_packages/
+
+#unwanted markdown files
+HOST-BOT.md
