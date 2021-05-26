@@ -27,6 +27,8 @@ Put the following values in it
 Key: Token
 Value: Your Bot's Token
 ```
+![.env replit](https://cdn.discordapp.com/attachments/846698526821449778/847015729106386954/Screenshot_2021-05-26-13-07-03-47.jpg)
+
 </br>
 </br>
 
