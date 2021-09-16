@@ -39,3 +39,6 @@ Value: Your Bot's Token
 ![Screenshot1](https://cdn.discordapp.com/attachments/846698526821449778/846698559969296424/Screenshot_2021-05-25-16-07-05-76_572064f74bd5f9fa804b05334aa4f912.jpg)
 **Terminal:**
 ![Screenshot2](https://cdn.discordapp.com/attachments/846698526821449778/846698792245657610/Screenshot_2021-05-25-16-08-32-42_c30cd925e7b7f067eb8ca2fbf963a62c.jpg)
+
+#### Made By: Eagle
+![](https://socialify.git.ci/EAGLE1309/chatBot/image?font=Source%20Code%20Pro&language=1&owner=1&pattern=Circuit%20Board&theme=Dark)
