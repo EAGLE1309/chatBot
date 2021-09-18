@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+# Bot hosting guide
+**24/7 bot hosting free:**
+</br>
+</br>
+**1.** Go to index.js and paste the following code on top of it
+```javascript
+const express = require('express');
+const app = express();
+const port = 3000;
 
-You can use the [editor on GitHub](https://github.com/EAGLE1309/chatBot/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+app.get('/', (req, res) => res.send('Successfully Hosted!'));
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+app.listen(port, () => console.log(`Discord bot listening at http://localhost:${port}`));
 ```
+</br>
+</br>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**2.** Go to [uptimeRobot](https://uptimerobot.com/) and create a new account!
 
-### Jekyll Themes
+</br>
+</br>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/EAGLE1309/chatBot/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+**3.** Create a new monitor with type https and paste the link there as shown in images
+![Copying Link](https://cdn.discordapp.com/attachments/846698526821449778/846787482645037066/IMG_20210525_220059.jpg)
 
-### Support or Contact
+</br>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![uptimeRobot](https://cdn.discordapp.com/attachments/846698526821449778/846787482989101086/IMG_20210525_220020.jpg)
+</br>
+</br>
+
+**4.** And done your bot is successfully hosted for 24/7!
