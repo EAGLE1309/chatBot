@@ -4,10 +4,11 @@ Hi guys I have bringed you a really simple but awesome and cool ChatBot for your
 
 **Note that:** This bot only works on discord.js v12
 > Check your current discord.js version
+> 
 `npm list discord.js`
 
 > If you have v13 installed then,
->
+> 
 ```js
 npm uninstall discord.js then,
 npm i discord.js@12.5.3
