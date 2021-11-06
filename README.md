@@ -1,6 +1,21 @@
-# chatBot by Eagle
+# ChatBot by Eagle
 
 Hi guys I have bringed you a really simple but awesome and cool ChatBot for your discord server!
+
+
+
+<hr>
+
+### Required Packages:
+```
+chatBot@1.2.0
+├── colors@1.4.0
+├── discord-akairo@8.1.0
+├── discord-reply@0.1.2
+├── discord.js@12.5.3
+├── dotenv@10.0.0
+└── node-fetch@2.6.6
+```
 
 **Note that:** This bot only works on discord.js v12
 > Check your current discord.js version
@@ -9,12 +24,16 @@ Hi guys I have bringed you a really simple but awesome and cool ChatBot for your
 
 > If you have v13 installed then,
 > 
-```js
+```
 npm uninstall discord.js then,
 npm i discord.js@12.5.3
 ```
 
-**Usage:** </br>
+<hr>
+
+
+
+### How to use?
 **1.** Create a repl of this repository by clicking [here](https://repl.it/github/EAGLE1309/chatBot)
 </br>
 </br>
