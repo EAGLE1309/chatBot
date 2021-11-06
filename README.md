@@ -10,7 +10,6 @@ Hi guys I have bringed you a really simple but awesome and cool ChatBot for your
 ```
 chatBot@1.2.0
 ├── colors@1.4.0
-├── discord-akairo@8.1.0
 ├── discord-reply@0.1.2
 ├── discord.js@12.5.3
 ├── dotenv@10.0.0
