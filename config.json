@@ -1,5 +1,13 @@
 {
-"botChannel": "<channel-name>",
-"activityType": "PLAYING",
-"activityName": "as a chatBot"
+    "botChannel": "channel-name",
+    //name of channel for eg. "chatbot"
+
+    "activityType": "PLAYING",
+    /*activity Type - all available values are:
+    PLAYING, STREAMING, LISTENING, STREAMING
+    */
+
+    "activityName": "as a chatBot"
+    // This depends on you!
+
 }
