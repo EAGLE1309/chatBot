@@ -40,7 +40,7 @@ npm i discord.js@12.5.3
 ```
 Go to config.json
 ```
-Replace `<channel-name>` with the name of channel where the bot will talk!
+Replace `<channel-id>` with the id of channel where the bot will talk!
 </br>
 You can also set custom status of bot! Following is the guide
 ```javascript
