@@ -50,7 +50,7 @@ client.on("ready", () => {
 //main working (don't do any changes here!)
 
 client.on("message", async message => {
-    if (message.channel.name == botChannel) {
+    if (message.channel.id == botChannel) {
 
         if (message.author.bot) return;
         message.content = message.content.replace(/@(everyone)/gi, "everyone").replace(/@(here)/gi, "here");
