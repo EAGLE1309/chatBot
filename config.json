@@ -1,5 +1,5 @@
 {
-    "botChannel": "channel-name",
+    "botChannel": "channel-id",
     "activityType": "PLAYING",
     "activityName": "as a chatBot"
 }
