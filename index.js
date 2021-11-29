@@ -1,5 +1,7 @@
-const Discord = require('discord.js');
-require('discord-reply');
+const Client = require('discord.js');
+const client = new Client({
+    intents: 32767,
+});
 require('dotenv').config();
 
 const {
@@ -8,7 +10,6 @@ const {
     botChannel
 } = require('./config.json');
 const fetch = require("node-fetch");
-const client = new Discord.Client();
 
 const colors = require('colors');
 
@@ -49,7 +50,7 @@ client.on("ready", () => {
 
 //main working (don't do any changes here!)
 
-client.on("message", async message => {
+client.on("messageCreate", async (message) => {
     if (message.channel.id == botChannel) {
 
         if (message.author.bot) return;
@@ -59,7 +60,7 @@ client.on("message", async message => {
             return message.channel.send(`**:x: Please dont mention a user noob!!!**`);
         }
 
-        message.channel.startTyping();
+        message.channel.sendTyping();
 
         if (!message.content) return message.channel.send("Please say something.");
 
@@ -67,9 +68,8 @@ client.on("message", async message => {
 
         .then(res => res.json())
         .then(data => {
-            message.lineReply(`> ${message.content} \n <@${message.author.id}> ${data.message}`);
+            message.reply({ content: `${data.message}`, allowedMentions: {repliedUser: true} });
         });
 
-        message.channel.stopTyping();
     }
 });
