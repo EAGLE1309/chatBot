@@ -39,10 +39,10 @@ client.on("ready", () => {
 
     client.user.setPresence({
         status: "online",
-        activity: {
+        activities: [{
             name: activityName,
             type: activityType,
-        }
+        }]
     })
 });
 
